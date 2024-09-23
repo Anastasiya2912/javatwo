@@ -1,6 +1,7 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
-        int ticketPrice = 5894, rublesPerMil = 20;
+        int ticketPrice = 5894;
+        int rublesPerMil = 20;
         int mils = ticketPrice / rublesPerMil;
 
         if (ticketPrice < 20) {
